@@ -1,0 +1,38 @@
+@import './settings.scss';
+
+.center {
+    margin: auto;
+    .register {
+        font-size: 1.2rem;
+        min-width: 230px;
+        text-align: left;
+        h2, p {
+            margin: 10px 0 5px 0;
+        }
+        .text-input {
+            padding: 3px;
+            border: 1px solid $inputBorderColor;
+            border-radius: 5px;
+        }
+        .radio-form {
+            .gender {
+                font-weight: bold;
+            }
+            .form-check {
+                display: inline-block;
+                input {
+                    height: 20px;
+                }
+            }
+        }
+        .link {
+            display: block;
+        }
+        .btn {
+            width: 100%;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: $buttonColor;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    .content {
+        text-align: left;
+        margin: auto;
+        ol {
+            padding-left: 15px;
+        }
+        ul {
+            .list-item {
+                list-style: disc;
+            }
+        }
+    }
+    .footer {
+        text-align: left;
+        margin: auto;
+        p {
+            margin: 0;
+        }
+    }
+}
